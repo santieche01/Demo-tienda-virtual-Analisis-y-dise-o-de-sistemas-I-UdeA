@@ -6,7 +6,7 @@ body{
 h1{
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-size: 60px;
     display: block;
 }
@@ -55,7 +55,7 @@ h3{
     color: #000
 }
 
-.new-account, .forgot {
+.form-help {
     font-size: 1.2rem;
     text-align: center;
     padding:10px;
