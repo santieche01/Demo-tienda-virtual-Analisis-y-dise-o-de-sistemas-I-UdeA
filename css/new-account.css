@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color:#000;
 }
 
 h1{
@@ -43,7 +44,7 @@ h3{
 
 .form-input{
     display: block;
-    width: 100%;
+    width: 110%;
     height: 40px;
     margin-left: 30%;
     margin-right: 15%;
@@ -51,7 +52,16 @@ h3{
     text-indent: 5px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #000
+    background-color: #FCF8E8;
+}
+
+
+#form-submit {
+    width: 50%;
+    margin-left: 60%;
+    margin-right: 25%;
+    background-color: #AEE1E1;
+    cursor: pointer;
 }
 
 .form-help {
@@ -81,7 +91,7 @@ h3{
     display: block;
     width: 70%;
     height: 60px;
-    margin-left: 25%;
+    margin-left: 35%;
     margin-right: 25%;
     border-radius:5px;
     text-indent: 5px;
@@ -114,15 +124,25 @@ a {
 }
 
 .ingreso-facebook {
-    background-color: blue;
+    background-color: #3b5998;
     padding: 20px;
     border-radius:4px;
 }
 
 .ingreso-gmail {
-    background-color: red;
+    background-color:#db4a39;
     padding: 20px;
     border-radius:4px;
 }
+
+p {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    display: block;
+}
+
+
 
 
