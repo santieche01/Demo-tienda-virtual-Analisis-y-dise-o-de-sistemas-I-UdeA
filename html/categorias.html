@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="author" content="Juan Camilo Cardona Calderón, Santiago Echeverry Arango, Jose Alejandro Bernal">
+   <meta name="description" content="Aplicacion tienda virtual - Analisis y diseño de sistemas I">
+   <meta name="keywords" content="tienda virtual, diseño, UdeA, HTML, CSS">
+
+   <link rel="icon" href="img/logo-j3c.png" type="image/png" sizes="18x18">
+   <link rel="stylesheet" href="../css/styles.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link rel="stylesheet" href="css/color-theme.css">
+   <title>Categorias | Muñelocos</title>
+   <script src=" https://kit.fontawesome.com/7b5fb2de65.js" crossorigin="anonymous" async>
+   </script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+   <nav class="navbar">
+      <div class="container">
+         <div class="navbar__logo">
+            <a href="#">Muñelocos</a>
+         </div>
+         <div class="navbar__menu">
+            <i class="fas fa-bars"></i>
+         </div>
+         <ul class="navbar__links one">
+            <li class="navbar__link active" data-ref="home">
+              <input type="search" name="busqueda" id="busqueda">
+              <button><i class="fas fa-search"></i></button>
+            </li>
+            <li class="navbar__link active" data-ref="home">
+               <a href="#">Tienda</a><span class="navbar__link--separator">|</span>
+            </li>
+            <li class="navbar__link active" data-ref="about">
+               <a href="#">Contacto</a><span class="navbar__link--separator">|</span>
+            </li>
+            <li class="navbar__link active" data-ref="about">
+               <a href="#"><i class="fas fa-cart-plus"></i></a><span class="navbar__link--separator">|</span>
+            </li>
+         </ul>
+      </div>
+   </nav>
+ 
+
+   <section id="tienda">
+      <div class="container">
+         <h2 class="section__title">¿Qué quieres comprar hoy?</h2>
+         
+         <div class="tienda__grid"> 
+            <a href="./tienda.html"> 
+               <div class="tienda__item">
+                  <picture>
+                     <source type="image/png" srcset="../img/img-projects/2.png">
+                     <img class="tienda__img" alt="tienda item">
+                  </picture>
+                  <div class="tienda__description">
+                        <h5 class="tienda__description--subtitle">Anchetas</h5>  
+                  </div>
+               </div>
+            </a>
+            <a href="./tienda.html">
+               <div class="tienda__item">
+                  <picture>
+                     <source type="image/png" srcset="../img/img-projects/3.png">
+                     <img class="tienda__img" alt="tienda item">
+                  </picture>
+                  <div class="tienda__description">
+                     
+                        <h5 class="tienda__description--subtitle">Babuchas</h5>  
+                  </div>
+               </div>
+            </a>   
+            <a href="./tienda.html">
+               <div class="tienda__item">
+                  <picture>
+                     <source type="image/png" srcset="../img/img-projects/4.png">
+                     <img class="tienda__img" alt="tienda item">
+                  </picture>
+                  <div class="tienda__description">               
+                        <h5 class="tienda__description--subtitle">Cajas</h5>  
+                  </div>
+               </div>
+            </a>
+            <a href="./tienda.html">   
+               <div class="tienda__item">
+                  <picture>
+                     <source type="image/png" srcset="../img/img-projects/7.png">
+                     <img class="tienda__img" alt="tienda item">
+                  </picture>
+                  <div class="tienda__description">
+                        <h5 class="tienda__description--subtitle">Decoración</h5>  
+                  </div>
+               </div>
+            </a>
+            <a href="./tienda.html">
+               <div class="tienda__item">
+                  <picture>
+                     <source type="image/png" srcset="../img/img-projects/1.png">
+                     <img class="tienda__img" alt="tienda item">
+                  </picture>
+                  <div class="tienda__description">
+                        <h5 class="tienda__description--subtitle">Peluches</h5>  
+                  </div>
+               </div>
+            </a> 
+            <a href="./tienda.html">
+               <div class="tienda__item">
+                  <picture>
+                     <source type="image/png" srcset="../img/img-projects/6.png">
+                     <img class="tienda__img" alt="tienda item">
+                  </picture>
+                  <div class="tienda__description">
+                        <h5 class="tienda__description--subtitle">Ropa</h5>  
+                  </div>
+               </div>   
+            </a>   
+         </div>
+      </div>
+   </section>
+
+   <footer class=" footer">
+      <div class="footer__item">
+         <div class="contact__item">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+         </div>
+         <div class="contact__item">
+            <a href="#" target="_blank"><i
+                  class="fab fa-instagram"></i></a>
+         </div>
+      </div>
+      <div class="footer__item footer__item--copyright">
+         <img class="author-rights__item footer-copyright--logo" src="img/logo.png" alt="logo">
+         <div class="author-rights">
+            <p class="author-rights__item">&copy; Copyright © 2020. @Muñelocos. </p>
+            <p class="author-rights__item">All Rights Reserved</p>
+         </div>
+      </div>
+   </footer>
+  
+</body>
+
+</html>
